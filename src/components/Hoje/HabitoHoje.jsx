@@ -1,10 +1,10 @@
 import { useState } from "react"
 import { useContext } from "react";
 import axios from "axios";
-import styled from 'styled-components';
-import Check from "../../assets/check.svg";
-import UserContext from "../../contexts/UserContext";
+import styled from 'styled-components'
 
+import UserContext from "../../contexts/UsuarioContext";
+import Check from "../../assets/check.svg"
 
 export default function HabitoDeHoje({ habitoDoDia, recarregarHabitos }) {
 

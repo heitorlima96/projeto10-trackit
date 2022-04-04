@@ -2,7 +2,7 @@ import { useContext } from "react";
 import axios from 'axios'
 import styled from 'styled-components'
 
-import UserContext from "../../contexts/UserContext";
+import UserContext from "../../contexts/UsuarioContext";
 import Lixeira from "../../assets/trash.svg"
 
 export default function Habito({ meuHabito, diasDaSemana, recarregarHabitos }) {

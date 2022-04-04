@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import styled from 'styled-components'
 
-import UserContext from "../../contexts/UserContext";
+import UserContext from "../../contexts/UsuarioContext";
 import Menu from "../Menu";
 import Topo from "../Topo";
 

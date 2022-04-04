@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
-import UserContext from "../contexts/UserContext";
+import TelaCadastro from "./TelaCadastro";
+import TelaHabitos from "./TelaHabitos";
+import TelaHoje from "./TelaHoje";
+import TelaLogin from "./TelaLogin";
+import TelaHistorico from "./TelaHistorico";
 
-import TelaCadastro from "./Cadastro/Cadastro";
-import TelaLogin from "./Login/Login";
-import TelaHabitos from "./Habitos/Habitos";
-import TelaHoje from "./Hoje/Hoje";
-import TelaHistorico from "./Historico/Historico";
+import UserContext from "../contexts/UsuarioContext";
 
 export default function App() {
 
@@ -31,7 +31,6 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </UserContext.Provider>
-
 
   )
 }

@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import axios from 'axios';
-import styled from 'styled-components';
+import { useState } from "react"
+import { Link, useNavigate } from "react-router-dom"
+import { ThreeDots } from 'react-loader-spinner'
+import axios from 'axios'
+import styled from 'styled-components'
 
-import Logo from "./../../assets/logo.jpg";
+import Logo from "./../../assets/logo.jpg"
 
 export default function TelaLogin() {
 
@@ -29,7 +30,6 @@ export default function TelaLogin() {
       const { image, name, token } = resposta.data
       const usuario = { imagem: image, nome: name, token: token }
 
-      console.log(usuario) //remover
       window.localStorage.setItem('usuario', JSON.stringify(usuario));
 
       setDesabilitar("")
