@@ -8,7 +8,7 @@ import UserContext from "../../contexts/UsuarioContext";
 import "../../../node_modules/dayjs/locale/pt-br"
 import Menu from '../Menu';
 import Topo from "../Topo";
-import HabitoDeHoje from "./HabitoDeHoje";
+import HabitoDeHoje from "./HabitoHoje";
 
 export default function TelaHoje() {
 
