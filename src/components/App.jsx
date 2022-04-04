@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react"
 
-import TelaCadastro from "./Cadastro";
-import TelaHabitos from "./Habitos";
-import TelaHoje from "./Hoje";
-import TelaLogin from "./Login";
-import TelaHistorico from "./Historico";
+import TelaCadastro from "./Cadastro/index";
+import TelaHabitos from "./Habitos/index";
+import TelaHoje from "./Hoje/index";
+import TelaLogin from "./Login/index";
+import TelaHistorico from "./Historico/index";
 
 import UserContext from "../contexts/UsuarioContext";
 
